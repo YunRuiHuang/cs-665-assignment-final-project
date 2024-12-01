@@ -11,20 +11,25 @@
 In this assignment, I design to learn and present the Builder pattern. In the coding part, I use the bake pizza as an example.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/YunRuiHuang/cs-665-assignment-final-project
 
 # Implementation Description 
 
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
-- Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+- Level of flexibility
+  * This software has high flexibility to allow user to choose what parameter need to be use
+  * high flexibility to choose provide or not all the parameter
+- simplicity and understandability
+  * The new object and object should be easy to write, the only method require is build() in builder
+- avoided duplicated code
+  * by using the builder, we can build pizza as user want, no need a split class for each pizza
+  * when we build a new pizza, we don't need to put null in parameter
+- design patterns
+  * Builder pattern used for this implementation
+  * the pizza is the complex object we want to create
+  * the pizzaBuilder is the builder object help user build pizza step-by-step
 
 
 # Maven Commands
